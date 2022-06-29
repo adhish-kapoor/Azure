@@ -31,4 +31,14 @@ Data is replicated synchronously three times in the primary region, then replica
 
 =>The current storage limit is 2 PB for US and Europe, and 500 TB for all other regions (including the UK) with no limit on the number of files.
 
+=>Free services:
+Virtual network
+Private IP address
+Azure migrate
+Inbound internet traffic
+5GB of outbound internet traffic
+Azure policy
+Azure AD
+Azure App service
+
 
