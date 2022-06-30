@@ -54,7 +54,8 @@ Azure App service
 
 =>Commands to ARM are done through Azure portal, Azure powershell and Azure CLI
 
-=>To store unstructured data in Azure "Azure blob storage" is used
+=>To store unstructured data in Azure "Azure blob storage" is used.
+Hot,cool and archived storage of unstructured data.
 
 =>Uploading data to Azure cloud from on-premises is free of cost ? FALSE (have to pay as per data size)
 
@@ -70,10 +71,10 @@ Azure App service
 =>To monitor inbound traffic in Azure, "Network security group" is used
 
 => Communication ------- IOT hub
-   Development ----------IOT central
+   Development, monitor IOT devices ----------IOT central
    Security -------------Azure sphere
    
-=>Azure service "Azure security center" makes sure that resources follow policy compliance
+=>Azure service "Azure security center" makes sure that resources follow policy compliance, security hygiene.
 
 => Azure functions ------------ Provides platform for serverless coding
    Azure databricks ----------- Big data analysis service for ML
@@ -85,4 +86,25 @@ Azure App service
 
 =>In SAAS, there is nothing to worry about Software compliance/expiration/copyright issue.
 
-=>
+=>Azure Active Directory enables SSO for MS services like outlook, teams, office 365 etc.
+=>Azure Active Directory is used to generate Token for RBAC(Role Based Access Control) and MFA.
+
+=>Azure service used to organize and retrieve all the resources - Azure tags
+
+=>Azure provides DDOS attack prevention
+Distributed Denial Of Service (External Attack Prevention)
+
+=>To reduce the pricing of azure services:-
+1. Delete app service plan if no app is running on it
+2. Delete unused IP addresses
+3. Delete unused VMs
+
+=>To increase availability of the application Deploy the application in multiple regions
+
+=>To maintain deployment consistency among all azure services within your enterprise - Use Azure Resource Manager(ARM) templates
+
+=>Cloud based implementation of a popular data analytical platform (Hadoop) - Azure HDinsight
+
+=> "Service Level Agreement" is a guarantee by MS for availability and uptime of a service.
+
+
