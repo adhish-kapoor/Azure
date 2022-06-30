@@ -41,4 +41,13 @@ Azure policy
 Azure AD
 Azure App service
 
+=====================================
+=>To deploy AI solution in Azure, Azure resource used is "Machine Learning Studio".
 
+=>To store sensitive infomation Azure service used is "Azure key vault"
+
+=>When you stop using deployed VM in Azure, do you still pay for storage of that VM ? TRUE
+
+=>A company which moves to public cloud (totally) can decommission its infrastructure? TRUE
+
+=>
