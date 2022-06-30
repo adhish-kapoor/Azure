@@ -83,4 +83,6 @@ Azure App service
    
 =>Desktop virtualization provided by MS as a PAAS offering - Windows Virtual Desktop
 
+=>In SAAS, there is nothing to worry about Software compliance/expiration/copyright issue.
+
 =>
