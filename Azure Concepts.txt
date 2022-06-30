@@ -48,6 +48,25 @@ Azure App service
 
 =>When you stop using deployed VM in Azure, do you still pay for storage of that VM ? TRUE
 
-=>A company which moves to public cloud (totally) can decommission its infrastructure? TRUE
+=>A company which moves to public cloud (totally) can decommission its infrastructure ? TRUE
 
-=>
+=>Azure Resource Manager(ARM) templates are fabricated in JSON.
+
+=>Commands to ARM are done through Azure portal, Azure powershell and Azure CLI
+
+=>To store unstructured data in Azure "Äzure blob storage" is used
+
+=>Uploading data to Azure cloud from on-premises is free of cost ? FALSE (have to pay as per data size)
+
+=>A big data analysis service for ML is "Azure Databricks"
+
+=>To deploy an IOT solution service used is "Azure sphere". It is a silicon chip for securly connecting to MS cloud.
+
+=>Azure firewall - External protection
+  Azure network security group - Internal attack prevention
+  
+=>If you want to move enterprise platform to cloud, SQL manages instances come under PAAS offering
+
+=>To monitor inbound traffic in Azure, "Network security group" is used
+
+
