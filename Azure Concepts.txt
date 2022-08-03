@@ -127,6 +127,10 @@ NOTE: Partition depends on the producer, which is Highway in above scenario.
 for Kubernetes services.
 
 => For MS Graph API, we need to use User.Read permission.
+   For MS Graph API, type of permission used is Delegated.
+   
+=> For Azure storage API, we need to use user_impersonation permission.
+   For Azure storage API, type of permission used is Delegated.
 
 => oauth2Permissions attribute    Value type - Collection
    oauth2AllowImplicitFlow        Value type - Boolean
