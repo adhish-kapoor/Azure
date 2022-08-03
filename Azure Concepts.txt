@@ -118,7 +118,10 @@ NOTE: Partition depends on the producer, which is Highway in above scenario.
 
 => To configure logging we need to use "az webapp log config" command.
    To get live trail of the logs we use "az webapp log tail" command.
+   To resolve the "Access-Control-Allow-origin" error in test envionment we use "az webapp cors add --allowed-origins". 
    To create a new Azure AD group we use "az ad group create" command.
+   To create a new VM we use "New-AzVm" command.
+   
 
 => An "Ingress controller" is a piece of software that provides:
 1. reverse proxy
