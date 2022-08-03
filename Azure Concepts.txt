@@ -124,4 +124,10 @@ NOTE: Partition depends on the producer, which is Highway in above scenario.
 3. TLS termination
 for Kubernetes services.
 
+=> For MS Graph API, we need to use User.Read permission.
+
+=> oauth2Permissions attribute    Value type - Collection
+   oauth2AllowImplicitFlow        Value type - Boolean
+   
 => 
+  
