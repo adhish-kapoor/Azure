@@ -107,4 +107,21 @@ Distributed Denial Of Service (External Attack Prevention)
 
 => "Service Level Agreement" is a guarantee by MS for availability and uptime of a service.
 
+============AZ-204===================
 
+=> AzCopy tool is used to copy data from one storage account to another.
+
+=> Traffic monitoring system monitors traffic along 6 highways. The system produces analysis based reports for each highway.
+Traffic data is consumed by 4 departments.Each dept. has an azure web app to display time series-based reports and contains a webJob that processes incoming data from Event hub.
+To implement Azure Event hub 6 partitions will be done based on highways.
+NOTE: Partition depends on the producer, which is Highway in above scenario.
+
+=> To configure logging we need to use "az webapp log config" command.
+
+=> An "Ingress controller" is a piece of software that provides:
+1. reverse proxy
+2. configure traffic routing
+3. TLS termination
+for Kubernetes services.
+
+=> 
