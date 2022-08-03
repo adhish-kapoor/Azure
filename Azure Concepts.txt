@@ -117,6 +117,7 @@ To implement Azure Event hub 6 partitions will be done based on highways.
 NOTE: Partition depends on the producer, which is Highway in above scenario.
 
 => To configure logging we need to use "az webapp log config" command.
+   To get live trail of the logs we use "az webapp log tail" command.
    To create a new Azure AD group we use "az ad group create" command.
 
 => An "Ingress controller" is a piece of software that provides:
