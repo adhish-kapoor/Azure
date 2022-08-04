@@ -151,5 +151,14 @@ for Kubernetes services.
    
    To retrieve an entity based on partition_key and row_key, we need to use TableOperation method.
    
-=>    
+=> Azure web app service plan to reduce costs and high availability: 
+   1. Enable autoscaling on web app.
+   2. Configure a scale condition
+   3. Configure web app to use Standard app service plan
+   4. Add scale rule
+   
+=> "Azure Event hubs capture" feature is used to persist data from Azure events hubs onto Azure Blob storage OR Azure Data Lake storage.
+   Data format used to write data is "Apache Avro": a compact, fast, binary format that provides rich data structures with inline schema.
+   
+=> 
   
