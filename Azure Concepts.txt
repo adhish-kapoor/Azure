@@ -140,5 +140,10 @@ for Kubernetes services.
    
 => Soft delete feature allows to recover blobs and its snapshots as well.
 
+=> Consistency levels:
+  1. Strong - Most recent committed version of an item.
+  2. Bounded Staleness - Reads lag behind writes by atmost "K" versions of an item or by "t" time interval.
+  3. Eventual - No ordering guarantee for reads. In absence of further writes, the replicas eventually converge.
+  
 => 
   
