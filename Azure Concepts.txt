@@ -145,5 +145,11 @@ for Kubernetes services.
   2. Bounded Staleness - Reads lag behind writes by atmost "K" versions of an item or by "t" time interval.
   3. Eventual - No ordering guarantee for reads. In absence of further writes, the replicas eventually converge.
   
-=> 
+=> PartitionKey - Used to Load balance the data.
+   RowKey - Second part of primary key is RowKey. It is a string value upto 1 KB in size. 
+            We must include RowKey property in every insert, update and delete operation.
+   
+   To retrieve an entity based on partition_key and row_key, we need to use TableOperation method.
+   
+=>    
   
