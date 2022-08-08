@@ -161,5 +161,9 @@ for Kubernetes services.
 => "Azure Event hubs capture" feature is used to persist data from Azure events hubs onto Azure Blob storage OR Azure Data Lake storage.
    Data format used to write data is "Apache Avro": a compact, fast, binary format that provides rich data structures with inline schema.
    
+=> Commands:
+   1. To create app service plan: az appservice plan create --name.......--resource-group.....--location $location --is-linux --sku S1
+   2. To create the web app: az webapp create --name....--plan.....--resource-group...
+   3. To configure the web app: az webapp config container set --docker-custom-image-name $dockerhub --name....--resource-group....
+   
 => 
-  
