@@ -166,4 +166,10 @@ for Kubernetes services.
    2. To create the web app: az webapp create --name....--plan.....--resource-group...
    3. To configure the web app: az webapp config container set --docker-custom-image-name $dockerhub --name....--resource-group....
    
+=> Policy sections:
+   1. "A set variable policy to store the detected user identity" - Inbound
+   2. "A cache-lookup-value policy" - Inbound
+   3. "A cache-store policy" - Outbound
+   4. "A find and replace policy to update the response body with user profile info" - Outbound
+   
 => 
