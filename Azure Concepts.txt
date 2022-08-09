@@ -176,4 +176,8 @@ for Kubernetes services.
    7. "Forward UserId associated with subscription key for original request to the back-end service" - Inbound
    
    
+=> IDatabase cache = Connection.GetDatabase(); //Establish cache connection
+   cache.KeyDelete(p_customer); //Invalidate the cache
+   
 => 
+   
