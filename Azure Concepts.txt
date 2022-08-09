@@ -171,5 +171,9 @@ for Kubernetes services.
    2. "A cache-lookup-value policy" - Inbound
    3. "A cache-store policy" - Outbound
    4. "A find and replace policy to update the response body with user profile info" - Outbound
+   5. "Rewrite the request URL to match to the format expected by the web service" - Inbound
+   6. "Remove formatting text from responses" - Outbound
+   7. "Forward UserId associated with subscription key for original request to the back-end service" - Inbound
+   
    
 => 
