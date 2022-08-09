@@ -179,5 +179,26 @@ for Kubernetes services.
 => IDatabase cache = Connection.GetDatabase(); //Establish cache connection
    cache.KeyDelete(p_customer); //Invalidate the cache
    
-=> 
+=> DOCKER file for dll running at startup of docker container and PS script runs in docker container:
+   FROM microsoft/dotnet:2.2-aspnetcore-runtime
+   ARG source
+   WORKDIR /app
+   EXPOSE 80
+   COPY ${source:-obj/docker/publish}
+   ENTRYPOINT ["dotnet", "WebApp.dll"]
    
+   RUN powershell "WebAppscript.ps1"
+   
+=> To create Azure Service Bus Namespace
+   New-AzServiceBusNamespace 
+      [-ResourceGroupName] <string>
+      [-Location] <string>
+      [-Name] <string>
+      [-SkuName] <string>
+      [-SkuCapacity] <Int32>
+      [-Tag] <HashTable>
+
+=> To create Az cosmosDB account and failovers are in place:
+   az cosmosdb create --name --resource-group --locations regionname=eastus failoverpriority=0 --enable-multiple-write-locations
+   
+=> 
