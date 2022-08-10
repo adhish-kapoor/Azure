@@ -110,6 +110,8 @@ Distributed Denial Of Service (External Attack Prevention)
 ============AZ-204===================
 
 => AzCopy tool is used to copy data from one storage account to another.
+   Azure CLI tool can also be used to move data from one container to another.
+   PowerShell tool can also be used.
 
 => Traffic monitoring system monitors traffic along 6 highways. The system produces analysis based reports for each highway.
 Traffic data is consumed by 4 departments.Each dept. has an azure web app to display time series-based reports and contains a webJob that processes incoming data from Event hub.
@@ -201,4 +203,13 @@ for Kubernetes services.
 => To create Az cosmosDB account and failovers are in place:
    az cosmosdb create --name --resource-group --locations regionname=eastus failoverpriority=0 --enable-multiple-write-locations
    
-=> 
+=> To create VM:
+   1. To create a resource group: az group create --name myrescgrp --location eastus
+   2. To create VM: az vm create \
+                    --resource-group myresgrp \
+                    --name myVM \
+                    --image win2016datacenter \
+                    --admin-username azureuser
+                    --admin-password mypass123
+                    
+=>                     
