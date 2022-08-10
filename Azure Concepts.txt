@@ -212,4 +212,7 @@ for Kubernetes services.
                     --admin-username azureuser
                     --admin-password mypass123
                     
-=>                     
+=> To store object in cache and serialize it before adding: cache.StringSet("obj", JsonConvert.SerializeObject(obj));
+   To retreive object from cache and deserialize it: JsonConvert.DeserializeObject<Employee>(cache.StringGet("obj"));
+   
+=> 
