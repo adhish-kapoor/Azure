@@ -215,4 +215,11 @@ for Kubernetes services.
 => To store object in cache and serialize it before adding: cache.StringSet("obj", JsonConvert.SerializeObject(obj));
    To retreive object from cache and deserialize it: JsonConvert.DeserializeObject<Employee>(cache.StringGet("obj"));
    
+=> "path":"data/{name}.png" is the filter used to push .png images in data container.
+
+=> "Storage Blob Data Reader" is the least privilege role assigned to storage account for downloading set of blobs from container.
+
+=> Delegated permission is the permission granted to a signed-in user and a user is required to sign in.
+   Application permission is the permission granted to an application and there is no user and application authenticates to Azure AD using its own app identity.
+   
 => 
