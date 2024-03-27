@@ -1,0 +1,6 @@
+AZ-204 
+
+1. Which object type is created automatically when an application is registered in Azure AD ?
+service principal
+
+2. 
