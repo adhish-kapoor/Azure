@@ -1,6 +1,35 @@
 AZ-204 
+=========
 
 1. Which object type is created automatically when an application is registered in Azure AD ?
-service principal
+=> service principal
 
-2. You
+2. You are developing a RESTful Azure function app API that uses Microsoft identity platform. You implement an API method to read a user's calendar.
+You need to ensure API can request permission to access a user's calendar. What should you use ?
+=> the scope OAuth 2.0 authorization request parameter
+
+3. You develop and deploy an AZ app service web app. The web app accesses AZ SQL DB data that is secured with an AZ AD conditional access policy.
+The applied policy controls access based on the network location of the user.
+You need to update the web app code to respond to conditional access challenges. What should you use ?
+=> the claims Azure AD response parameter
+
+4. You are developing an app for company. Devices that access the app must be enrolled in Microsoft Intune. The app must not require
+additional code for conditional access. Which app type should you use ?
+=> Single page app using MSAL.js
+
+5. You are developing an AZ app service web app that uses MSAL.js and you register the web app with Microsoft identity platform by using Azure portal.
+You need to configure web app to receive security tokens. The Web app must process custom claims in the security tokens issued by AZ AD.
+Which value should you configure ?
+=> Application (Client) ID
+
+6. You are developing an AZ app service web app that uses MSAL for .NET (MSAL.NET). You register web app with Microsoft identity platform by using Azure portal.
+You need to define the app password that will be used to prove the identity of application when requesting tokens from Azure AD.
+Which method should you use during initialization of the app ?
+=> WithClientSecret
+
+7. You are developing a public client application to query Microsoft Graph API by using Microsoft Graph .NET SDK.
+You need to create an instance of a Microsoft Graph Client.
+Which Microsoft identity platform application registration value should you use ?
+=> Application (Client) ID
+
+8. 
