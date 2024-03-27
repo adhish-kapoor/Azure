@@ -46,4 +46,13 @@ allow feature flag states to be updated without changing OR redeploying applicat
 You need to store the feature flags in a central repository hosted in Azure. Which service should you use ?
 => Azure App Configuration
 
-11. 
+11. You are developing an application. The application stores all application settings in Azure App Configuration service. You plan to deploy application
+in Azure VNet. You need to ensure that network traffic between the application and the App Configuration store uses the VNet and remains on Microsoft backbone network.
+Which solution should you use ?
+=> Private endpoint
+
+12. You are developing an application that includes feature management. You need to implement a feature flag.
+Which two components should you configure ?
+=> Name, List of filters
+
+13. 
