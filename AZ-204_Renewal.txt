@@ -32,4 +32,18 @@ You need to create an instance of a Microsoft Graph Client.
 Which Microsoft identity platform application registration value should you use ?
 => Application (Client) ID
 
-8. 
+8. You are developing an app by using the Microsoft Graph API. The app must send an email as the signed-in user.
+Which REST API call should you use ?
+=> POST https://graph.microsoft.com/v1.0/me/sendMail
+
+9. You are developing an AKS microservice application that uses certificates and API keys stored in Azure Key Vault.
+Application development includes 4 envs- Development, Test, Staging, Production
+You need to configure key vaults. How many key vaults should you use ?
+=> 4
+
+10. You are developing an application that uses feature flags. You must externalize the feature flags used by the application and 
+allow feature flag states to be updated without changing OR redeploying application. 
+You need to store the feature flags in a central repository hosted in Azure. Which service should you use ?
+=> Azure App Configuration
+
+11. 
