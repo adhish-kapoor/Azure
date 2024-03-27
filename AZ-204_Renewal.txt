@@ -55,4 +55,67 @@ Which solution should you use ?
 Which two components should you configure ?
 => Name, List of filters
 
-13. 
+13. You are developing an application. The application stores all application settings in Azure App Configuration service. 
+Application development includes 4 envs- Development, Test, Staging, Production
+You need to version the configuration data and use the same configuration values across all environments.
+Which key-values pairs attribute should you use ?
+=> Labels
+
+14. You develop and deploy several microservices to AKS cluster. The microservices are instrumented with the Application Insights SDK.
+You configure an Application Insights instance and use the connection string in the instrumentation.
+The instrumentation includes a custom telemetry value used to track the order checkout action. Order checkout is an action that includes a property to capture order number.
+You need to capture the custom order telemetry. Which Application Insights data type should you use ?
+=> Trace
+
+15. You are developing an app. You need to monitor app's performance by correlating trace events with requests in the app.
+Which feature should you use ?
+=> Trace logs
+
+16. You develop and deploy a JAVA web app to Azure Spring Cloud that includes latest Application Insights SDK. 
+You create an Application Insights instance and enable auto-instrumentation. The web app generates a large volume of telemetry and Application Insights is throttling the telemetry.
+You need to reduce telemetry traffic while preserving a statistically correct analysis of the web app data. 
+What should you configure ?
+=> Sampling
+
+17. You develop and deploy an AZ app service web app by using the latest Application Insights SDK. 
+You are developing a dashboard and near real time alerting for web app. You need to query operational data to support the dashboard and alerts.
+Which data should you use ?
+=> log-based metrics
+
+18. You develop and deploy an Azure Function app to process a custom Azure Event Grid topic.
+You need to enable subscribers to filter and route events for the custom topic.
+Which event schema property should you use ?
+=> eventType
+
+19. You are using Azure Event Grid to process events from Azure Blob Storage. You plan to implement CloudEvents to process the events from Azure Blob Storage.
+You need to identity the events header value that is different between the CloudEvents schema and Event Grid schema.
+Which header value used by two schemas is different ?
+=> content-type
+
+20. You develop and deploy an Azure Function app to process a custom Azure Event Grid topic.
+Several events are not being delivered within the time-to-live period of retry policy. You need to capture undelivered events for later resolution.
+What should you configure before creating event subscription ?
+=> Azure storage account and a queue
+
+21. You are developing an Azure Event Hubs client to process a custom Azure Event Grid topic.
+You need to configure the permission needed to send events to the Event Grid.
+Which permission should you configure on the Event Grid ?
+=> Microsoft.EventGrid/EventSubscriptions/Write
+
+22. You configure 4 partitions in the Event Hub. You provision 2 function apps that will process the events from the Event Hub.
+You need to ensure offset integrity for each consumer and minimum dependencies.
+How many consumer groups should you use ?
+=> 1
+
+23. Which two event data values should you use to commit the position of the last successfully processed event within the partition?
+=> offset and sequence number
+
+24. You need to use Azure RBAC to grant permissions to a security principal at the narrowest possible scope.
+Which scope access level should you use ?
+=> Consumer group
+
+25. You need to use an API class that will publish events in batches.
+Which API class should you use ?
+=> EventHubProducerClient
+
+
